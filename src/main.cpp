@@ -13,13 +13,6 @@ static constexpr int HALF_SCREEN_HEIGHT = bn::display::height() / 2;
 
 static constexpr bn::fixed MIN_X = -HALF_SCREEN_WIDTH;
 static constexpr bn::fixed MAX_X = HALF_SCREEN_WIDTH;
-static constexpr bn::fixed MIN_Y = -HALF_SCREEN_HEIGHT;
-static constexpr bn::fixed MAX_Y = HALF_SCREEN_HEIGHT;
-
-static constexpr bn::fixed MIN_DX = -2;
-static constexpr bn::fixed MAX_DX = 2;
-static constexpr bn::fixed MIN_DY = -2;
-static constexpr bn::fixed MAX_DY = 2;
 
 
 int main() {
